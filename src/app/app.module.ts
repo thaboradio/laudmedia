@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
+import {NgxSpinnerModule} from 'ngx-spinner';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    IvyCarouselModule
+    IvyCarouselModule,
+    NgxSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
