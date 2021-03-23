@@ -1,0 +1,6 @@
+#main-container{
+    height: 900px;
+    background: url(../../assets/Banner_auto_x1_colored_toned.jpg);
+    background-size: cover;
+    margin-bottom: 30px;
+}

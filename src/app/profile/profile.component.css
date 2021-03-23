@@ -1,0 +1,19 @@
+#heading-row{
+    background: url(../../assets/profile-banner.png);
+    background-size: cover;
+    height: 250px;
+}
+/* #intro-text{
+    margin-left: 10px;
+} */
+/* .display-3{
+    font-weight: bold;
+} */
+.text-red{
+    color: red;
+    text-decoration: underline;
+}
+#profile{
+    background-size: auto 50px;
+    background: url(../../assets/faded_bg.jpg) no-repeat center bottom;
+}

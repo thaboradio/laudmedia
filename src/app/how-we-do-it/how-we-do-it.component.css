@@ -1,0 +1,44 @@
+#howitsdone-banner{
+    background: url(../../assets/howdone-banner.png);
+    background-size: cover;
+    height: 250px;
+}
+.text-red{
+    color: #AC0000;
+    font-weight: bold;
+}
+ #howitsdone-part1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 800px;
+   background: url(../../assets/topmodel_faded.jpg) no-repeat center bottom;
+   background-size: 102% 400px;
+} 
+#howitsdone-part2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 600px;
+   background: url(../../assets/gwanda_gospel.jpg) no-repeat center bottom;
+   background-size: 102% 400px;
+} 
+#howitsdone-part3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#howitsdone-part4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#howitsdone-part5{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.section-4
+{
+    margin-top: 100px;
+}
+
+

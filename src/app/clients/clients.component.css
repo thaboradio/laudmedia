@@ -1,0 +1,10 @@
+#clients-banner{
+    background:url(../../assets/client-banner.png);
+    background-size: 102%;
+    height: 250px;
+    margin-left: -15px;
+    margin-right: -15px;
+    left: 0;
+    right: 0;
+}
+
