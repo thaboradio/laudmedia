@@ -10,7 +10,7 @@
   <div class="container-fluid" id="howitsdone-part1">
     <div class="row">
       <div class="col-md-12">
-        <p class="display-2"><span class="text-red">EXPERIENCIAL</span> EVENTS
+        <p class="display-2" id="introduction"><span class="text-red">EXPERIENCIAL</span> EVENTS
           AND PRODUCTION.
           STAND OUT
           IN THE <span class="text-red">CROWD</span></p>
@@ -45,12 +45,15 @@
 
   <!-- Part 2 -->
   <div class="section-2">
+    <div class="container-fluid" id="part2-banner-on-small">
+      <div id="howitsdone-banner"></div>
+    </div>
     <div class="container-fluid" id="howitsdone-part2">
     <div class="row">
       <div class="col-md-4">
-        <p class="display-3">YOUR <span class="text-red" style="text-decoration: underline;">PRODUCT</span></p>
-        <p class="display-3">TAKES</p>
-        <p class="display-3">CENTER STAGE</p>
+        <p class="display-3" id="firstline">YOUR <span class="text-red" style="text-decoration: underline;">PRODUCT</span></p>
+        <p class="display-3" id="secondline">TAKES</p>
+        <p class="display-3" id="thirdline">CENTER STAGE</p>
       </div>
       <div class="col-md-8">
         <h2>LIVE ENTERTAINMENT IS LAUD</h2>
@@ -64,7 +67,7 @@
           interaction with audiences.
         </p>
         <h2>Strategy and creative</h2>
-        <p>
+        <p class="text-white">
           Laud SPONSOR team does not believe in traditional sponsorship, we believe in strategic partnerships that solve
           real
           problems for our clients and forge meaningful, long term relationships with their consumer. We give brands a
@@ -81,9 +84,13 @@
 
   <!-- Part 3 -->
   <div class="section-3">
+    <div class="container-fluid" id="part3-banner-on-small">
+      <div id="howitsdone-banner"></div>
+    </div>
+
      <div class="container" id="howitsdone-part3">
     <div class="row">
-      <h2 class="display-3">LAUD EVENTS AND <span class="text-red">FESTIVALS</span></h2>
+      <h2 class="display-3" id="part3-main-line">LAUD EVENTS AND <span class="text-red">FESTIVALS</span></h2>
       <p>
         We are privileged and proud to have partnered with some of the biggest events and festivals on the African
         continent.
@@ -111,7 +118,7 @@
         <li>BLACK BUSSINES QUATERLY (BBQ) AWARDS</li>
       </ul>
     </div>
-    <div class="container">
+    <div class="container" id="first-carousel">
       <carousel [autoplay]=autoplay>
         <div class="carousel-cell">
           <img src="../../assets/miss_zim.png">
@@ -143,11 +150,14 @@
 
   <!-- Part 4 -->
 <div class="section-4">
+  <div class="container-fluid" id="part3-banner-on-small">
+    <div id="howitsdone-banner"></div>
+  </div>
    <div class="container" id="howitsdone-part4">
     <div class="row">
-      <h2 class="display-3"><span class="text-red">AUDIO</span> VISUAL</h2>
+      <h2 class="display-3" id="line1"><span class="text-red">AUDIO</span> VISUAL</h2>
       <p class="displa-4"> and </p>
-      <h2 class="display-3"> TECHNICAL <span class="text-red">SERVICES</span></h2>
+      <h2 class="display-3" id="line2"> TECHNICAL <span class="text-red">SERVICES</span></h2>
       <p>
         The mark of any great event in the live entertainment arena is the technical marvel and spectacle created by
         the
@@ -166,8 +176,8 @@
         magic.
       </p>
     </div>
-    <div class="container">
-      <carousel [autoplay]=autoplay [cellsToShow]=1 transitionTimingFunction='ease-in-out' [height]=500>
+    <div class="container" id="second-carousel">
+      <carousel [autoplay]=autoplay [cellsToShow]=1 [height]=500 >
         <div class="carousel-cell">
           <img src="../../assets/Instruments/stage1.png">
         </div>
@@ -186,9 +196,12 @@
 
   <!-- Part 5 -->
   <div class="section-5">
- <div class="container" style="margin-top: 100px;">
+    <div class="container-fluid" id="part3-banner-on-small">
+      <div id="howitsdone-banner"></div>
+    </div>
+ <div class="container">
     <div class="row">
-      <h2 class="display-3">
+      <h2 class="display-3" id="line4">
         LAUD <span class="text-red">STUDIOS</span>
       </h2>
       <p>
@@ -202,7 +215,7 @@
         groom
         talent and exploit market opportunities for clients and in-house talent.
       </p>
-      <h2 class="display-3">
+      <h2 class="display-3" id="line5">
         <span class="text-red">Laud</span> Talent
       </h2>
       <p>
@@ -214,7 +227,7 @@
       </p>
     </div>
     <div class="row">
-      <carousel [autoplay]=autoplay [cellsToShow]=1 transitionTimingFunction='ease-in-out' [height]=500 [borderRadius]=4 [loop]=true
+      <carousel [autoplay]=autoplay [cellsToShow]=1 [height]=500 [borderRadius]=4 [loop]=true
       [dots]=true>
         <div class="carousel-cell">
           <img src="../../assets/Instruments/inst1.png">

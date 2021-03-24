@@ -7,9 +7,52 @@
     margin-right: -15px;
 }
 
+#firstline{
+    line-height: 200px;
+}
+#secondline{
+    line-height: 200px;
+}
+#thirdline{
+    line-height: 200px;
+}
 #services{
     background-size: cover;
     background: url(../../assets/services.jpg) no-repeat center center;    
     background-size: 102% 750px;
 }
 
+@media only screen and (max-width: 600px){
+    #laud-services-heading {
+        background: url(../../assets/services-banner.png);
+        background-size: cover;
+        height: 65px;
+        width: 109%;
+    }
+    #firstline{
+        line-height: 45px;
+    }
+    #secondline{
+        line-height: 80px;
+        color: red; 
+        text-decoration: underline;
+    }
+    #thirdline{
+        line-height: 65px;
+    }
+    #par{
+     margin-top: 20px;
+     margin-bottom: 90px;   
+    }
+    #services{
+        background-size: cover;
+        background: url(../../assets/services.jpg) no-repeat bottom center;    
+        background-size: 102% 750px;
+    }
+    .light-on-small{
+        color: black;
+    }
+    .dark-on-small{
+        color: #f5f5f5;
+    }
+}

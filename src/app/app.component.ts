@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import {NgxSpinnerService} from 'ngx-spinner';
 
 @Component({
@@ -9,7 +10,7 @@ import {NgxSpinnerService} from 'ngx-spinner';
 export class AppComponent implements OnInit{
   title = 'Laud';
 
-  constructor(private spinner: NgxSpinnerService){}
+  constructor(private spinner: NgxSpinnerService, private router: Router){}
 
   ngOnInit(): void {
     this.spinner.show();
@@ -17,6 +18,10 @@ export class AppComponent implements OnInit{
     setTimeout(() => {
       this.spinner.hide();
     }, 1500);
+  }
+
+  gotoContact(): void{
+    this.router.navigate(['/contact-us']);
   }
 
 }

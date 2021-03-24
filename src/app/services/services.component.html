@@ -1,31 +1,30 @@
-
-    <ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "medium" color = "#fff" type = "square-jelly-box" [fullScreen] = "true"><p style="color: white" > Loading... </p></ngx-spinner>
+<ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "medium" color = "#fff" type = "square-jelly-box" [fullScreen] = "true"><p style="color: white" > Loading... </p></ngx-spinner>
 
 <!-- Services Section -->
 <div class="container-fluid" id="services-section">
-    <div class="container-fluid" id="laud-services-banner">
-    <div id="laud-services-heading"></div>
-  </div>
-  <div class="container-fluid" id="services" style="padding-left: 250px;  margin-top: -28px;">
+  <div id="laud-services-heading"></div>
+
+  <div class="container-fluid" id="services">
     <div class="row">
       <div class="col-md-4">
-          <p class="display-3" style="line-height: 200px;">
+          <p class="display-3" id="firstline">
             WE
           </p>
-          <p class="display-3" style="line-height: 200px; color: red; text-decoration: underline;">
+          <p class="display-3" id="secondline">
            LAUD
           </p>
-          <p class="display-3" style="line-height: 200px;">
+          <p class="display-3"  id="thirdline">
             CREATIVITY
           </p>
       </div>
-      <div class="col-md-8">
-  
-        <p class="lead" style="font-weight: bold;">
-          AS A FULL SERVICE PROVIDER TO THE MEDIA AND ENTERTAINMENT INDUSTRIES WE BOAST A WIDE RANGE OF SERVICES TO MEED
-          THE NEEDS
-          AND EXPECTATIONS OF OUR CLIENTELE AND ENTERTAINMENT LOVERS ALIKE
-        </p>
+      <div class="col-md-8" id="second-stanza">
+        <div class="par">
+          <p class="lead" style="font-weight: bold;">
+            AS A FULL SERVICE PROVIDER TO THE MEDIA AND ENTERTAINMENT INDUSTRIES WE BOAST A WIDE RANGE OF SERVICES TO MEED
+            THE NEEDS
+            AND EXPECTATIONS OF OUR CLIENTELE AND ENTERTAINMENT LOVERS ALIKE
+          </p>
+        </div>
   
         <ul>
           <li>Multimedia services</li>
@@ -45,9 +44,9 @@
           <li>Sponsorship services</li>
           <li>Music publishing</li>
           <li>Content distribution</li>
-          <li>Artist management</li>
-          <li>Touring</li>
-          <li>Training and development</li>
+          <li class="light-on-small">Artist management</li>
+          <li class="light-on-small">Touring</li>
+          <li class="dark-on-small">Training and development</li>
         </ul>
       </div>
     </div>

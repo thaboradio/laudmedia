@@ -1,6 +1,17 @@
 #main-container{
     height: 900px;
     background: url(../../assets/Banner_auto_x1_colored_toned.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px){
+    #main-container{
+    background: url(../../assets/Banner_auto_x1_colored_toned.jpg);
+    background-position: top center;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    height: 900px;
+    }
 }

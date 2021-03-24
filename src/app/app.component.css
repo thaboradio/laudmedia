@@ -1,24 +1,30 @@
-
-/* #laud-text-large{
-    font-size: 7.5vw;
+@media only screen and (max-width: 600px){
+    #profile-on-small-screen{
+        display: block;
+        
+    }
+    #services-on-small-screen{
+        display: block;
+    }
+   
 }
 
-
-
-#howitsdone-banner{
-    background: url(../assets/howdone-banner.png);
-    background-size: cover;
-    height: 250px;
+@media only screen and (min-width: 601px){
+    #profile-on-small-screen{
+        display: none;
+    }
+    #services-on-small-screen{
+        display: none;
+    }
+    #how-we-do-it-on-small{
+        display: none;
+    }
+    #clients{
+        display: none;
+    }
+    #contact-us{
+        display: none;
+    }
 }
 
-#clients-banner{
-    background: url(../assets/client-banner.png);
-    background-size: cover;
-    height: 250px; 
-}
-#contact-us-banner
-{
-    background: url(../assets/contact-banner.png);
-    background-size: cover;
-    height: 250px; 
-} */
+ 

@@ -8,3 +8,37 @@
     right: 0;
 }
 
+#client-line1{
+    line-height: 100px;
+}
+#client-line2{
+    line-height: 100px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    #clients-banner{
+        background:url(../../assets/client-banner.png) no-repeat;
+        background-size: 102%;
+        height: 70px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    #client-line1{
+        font-size: 2.5rem !important;
+        line-height: 45px;
+    }
+    #client-line2{
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+    #client-line3{
+        font-size: 2.5rem;
+    }
+    #client-line4{
+        font-size: 2.5rem;
+    }
+}
+
